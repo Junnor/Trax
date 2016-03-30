@@ -17,23 +17,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VYU-0d-Q5c">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="608"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="gwS-BP-aox">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="VYU-0d-Q5c" secondAttribute="trailing" id="2BE-Yx-nTb"/>
-                            <constraint firstItem="VYU-0d-Q5c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="O72-sA-wvT"/>
-                            <constraint firstItem="VYU-0d-Q5c" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" constant="8" symbolic="YES" id="OBH-mH-c6b"/>
-                            <constraint firstItem="VYU-0d-Q5c" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="a2c-Mx-u4u"/>
+                            <constraint firstItem="gwS-BP-aox" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="0hb-j0-80q"/>
+                            <constraint firstItem="gwS-BP-aox" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WHo-K9-pzv"/>
+                            <constraint firstAttribute="trailing" secondItem="gwS-BP-aox" secondAttribute="trailing" id="XwY-Tx-vwI"/>
+                            <constraint firstItem="gwS-BP-aox" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="wHv-C3-n8e"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="textView" destination="VYU-0d-Q5c" id="pIc-vO-3wG"/>
+                        <outlet property="mapView" destination="gwS-BP-aox" id="Pun-No-cbC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

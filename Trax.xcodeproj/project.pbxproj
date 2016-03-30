@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B1A49531CAC0A1400AAFA74 /* GPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A49521CAC0A1400AAFA74 /* GPX.swift */; };
 		8BF7F4D71CABF7DD0018C03D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7F4D61CABF7DD0018C03D /* AppDelegate.swift */; };
-		8BF7F4D91CABF7DD0018C03D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7F4D81CABF7DD0018C03D /* ViewController.swift */; };
+		8BF7F4D91CABF7DD0018C03D /* GPXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7F4D81CABF7DD0018C03D /* GPXViewController.swift */; };
 		8BF7F4DC1CABF7DD0018C03D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF7F4DA1CABF7DD0018C03D /* Main.storyboard */; };
 		8BF7F4DE1CABF7DD0018C03D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF7F4DD1CABF7DD0018C03D /* Assets.xcassets */; };
 		8BF7F4E11CABF7DD0018C03D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF7F4DF1CABF7DD0018C03D /* LaunchScreen.storyboard */; };
+		8BF7F4EB1CAC074A0018C03D /* MKGPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7F4EA1CAC074A0018C03D /* MKGPX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B1A49521CAC0A1400AAFA74 /* GPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPX.swift; sourceTree = "<group>"; };
 		8BF7F4D31CABF7DD0018C03D /* Trax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF7F4D61CABF7DD0018C03D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BF7F4D81CABF7DD0018C03D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BF7F4D81CABF7DD0018C03D /* GPXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXViewController.swift; sourceTree = "<group>"; };
 		8BF7F4DB1CABF7DD0018C03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BF7F4DD1CABF7DD0018C03D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BF7F4E01CABF7DD0018C03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BF7F4E21CABF7DD0018C03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF7F4EA1CAC074A0018C03D /* MKGPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKGPX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				8BF7F4D61CABF7DD0018C03D /* AppDelegate.swift */,
-				8BF7F4D81CABF7DD0018C03D /* ViewController.swift */,
+				8BF7F4D81CABF7DD0018C03D /* GPXViewController.swift */,
+				8BF7F4EA1CAC074A0018C03D /* MKGPX.swift */,
+				8B1A49521CAC0A1400AAFA74 /* GPX.swift */,
 				8BF7F4DA1CABF7DD0018C03D /* Main.storyboard */,
 				8BF7F4DD1CABF7DD0018C03D /* Assets.xcassets */,
 				8BF7F4DF1CABF7DD0018C03D /* LaunchScreen.storyboard */,
@@ -90,6 +96,7 @@
 		8BF7F4CB1CABF7DC0018C03D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Junor;
@@ -135,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BF7F4D91CABF7DD0018C03D /* ViewController.swift in Sources */,
+				8BF7F4D91CABF7DD0018C03D /* GPXViewController.swift in Sources */,
+				8BF7F4EB1CAC074A0018C03D /* MKGPX.swift in Sources */,
 				8BF7F4D71CABF7DD0018C03D /* AppDelegate.swift in Sources */,
+				8B1A49531CAC0A1400AAFA74 /* GPX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +297,7 @@
 				8BF7F4E71CABF7DD0018C03D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
