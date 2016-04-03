@@ -1,92 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" xmlns:xsi="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-  <wpt lat="50.8005658" lon="-118.0394925">
+  <wpt lat="30.8005658" lon="118.0394925">
     <name>Helicopter</name>
     <desc>Let’s get this party started!</desc>
-    <link href="http://cs193p.stanford.edu/Images/Helicopter.jpg">
+    <link href="https://i.ytimg.com/vi/ouTCVuySIlQ/maxresdefault.jpg">
 	<type>large</type>
     </link>
-    <link href="http://cs193p.stanford.edu/Images/Helicopter.png">
+    <link href="https://i.ytimg.com/vi/ouTCVuySIlQ/maxresdefault.jpg">
 	<type>thumbnail</type>
     </link>
   </wpt>
-   <wpt lat="50.7653464" lon="-118.2072668">
+   <wpt lat="30.7653464" lon="118.2072668">
     <name>Top of First Run</name>
     <desc>Incredible views from up here.</desc>
-    <link href="http://cs193p.stanford.edu/Images/Crag.jpg">
+    <link href="http://www.mrwallpaper.com/wallpapers/Lake-View-Sunset.jpg">
 	<type>large</type>
     </link>
-    <link href="http://cs193p.stanford.edu/Images/Crag.png">
+    <link href="http://www.mrwallpaper.com/wallpapers/Lake-View-Sunset.jpg">
 	<type>thumbnail</type>
     </link>
   </wpt>
-   <wpt lat="50.7453018" lon="-118.2307064">
+   <wpt lat="30.7453018" lon="118.2307064">
     <name>Nice Tracks</name>
     <desc>Oh no! Clouds rolling in.</desc>
-    <link href="http://cs193p.stanford.edu/Images/FreshTracks.jpg">
+    <link href="http://earth.imagico.de/views/tatra2_cc.jpg">
 	<type>large</type>
     </link>
-    <link href="http://cs193p.stanford.edu/Images/FreshTracks.png">
+    <link href="http://earth.imagico.de/views/tatra2_cc.jpg">
 	<type>thumbnail</type>
     </link>
   </wpt>
-   <wpt lat="50.7624520" lon="-118.2735700">
+   <wpt lat="30.7624520" lon="118.2735700">
     <name>Incoming!</name>
     <desc>Brace yourself for fierce wind.</desc>
-    <link href="http://cs193p.stanford.edu/Images/HelicopterLanding.jpg">
+    <link href="http://www.zastavki.com/pictures/originals/2014/World___England_Magnificent_views_in_London_058564_.jpg">
 	<type>large</type>
     </link>
-    <link href="http://cs193p.stanford.edu/Images/HelicopterLanding.png">
+    <link href="http://www.zastavki.com/pictures/originals/2014/World___England_Magnificent_views_in_London_058564_.jpg">
 	<type>thumbnail</type>
     </link>
   </wpt>
-   <wpt lat="50.7637929" lon="-118.2665672">
+   <wpt lat="30.7637929" lon="118.2665672">
     <name>Valley Floor</name>
     <desc>Views are spectacular even from here.</desc>
-    <link href="http://cs193p.stanford.edu/Images/Mountain.jpg">
+    <link href="https://upload.wikimedia.org/wikipedia/commons/f/f1/Combe_Gibbet_views_-_east.jpg">
 	<type>large</type>
     </link>
-    <link href="http://cs193p.stanford.edu/Images/Mountain.png">
+    <link href="https://upload.wikimedia.org/wikipedia/commons/f/f1/Combe_Gibbet_views_-_east.jpg">
 	<type>thumbnail</type>
     </link>
   </wpt>
-   <wpt lat="50.7786180" lon="-118.2093004">
+   <wpt lat="30.7786180" lon="118.2093004">
     <name>Ready for Pickup</name>
     <desc>This isn’t Jenga, stack ‘em neatly.</desc>
-    <link href="http://cs193p.stanford.edu/Images/PileOfSkis.jpg">
+    <link href="http://handluggageonly.co.uk/wp-content/uploads/2015/10/Paris-Restaurants-with-cool-views-5.jpg">
 	<type>large</type>
     </link>
-    <link href="http://cs193p.stanford.edu/Images/PileOfSkis.png">
+    <link href="http://handluggageonly.co.uk/wp-content/uploads/2015/10/Paris-Restaurants-with-cool-views-5.jpg">
 	<type>thumbnail</type>
     </link>
   </wpt>
-   <wpt lat="50.7422016" lon="-118.2218038">
+   <wpt lat="30.7422016" lon="118.2218038">
     <name>Flying</name>
     <desc>Wouldn’t you love to be at the controls?</desc>
-    <link href="http://cs193p.stanford.edu/Images/Cockpit.jpg">
+    <link href="https://farm6.staticflickr.com/5487/11465357373_3cc444df0d_z.jpg">
 	<type>large</type>
     </link>
-    <link href="http://cs193p.stanford.edu/Images/Cockpit.png">
+    <link href="https://farm6.staticflickr.com/5487/11465357373_3cc444df0d_z.jpg">
 	<type>thumbnail</type>
     </link>
   </wpt>
-   <wpt lat="50.7789335" lon="-118.2263683">
+   <wpt lat="30.7789335" lon="118.2263683">
     <name>Panorama</name>
     <desc>Cool iPhone feature.</desc>
-    <link href="http://cs193p.stanford.edu/Images/Panorama.jpg">
+    <link href="http://www.blogcdn.com/travel.aol.co.uk/media/2011/11/hotelcoverexplora-lodge.jpg">
 	<type>large</type>
     </link>
-    <link href="http://cs193p.stanford.edu/Images/Panorama.png">
+    <link href="http://www.blogcdn.com/travel.aol.co.uk/media/2011/11/hotelcoverexplora-lodge.jpg">
 	<type>thumbnail</type>
     </link>
   </wpt>
-   <wpt lat="51.0258505" lon="-118.2338546">
+   <wpt lat="31.0258505" lon="118.2338546">
     <name>Apres Ski</name>
     <desc>In Canada, after all.</desc>
-    <link href="http://cs193p.stanford.edu/Images/Curling.jpg">
+    <link href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/Art/uiimageview_image_2x.png">
 	<type>large</type>
     </link>
-    <link href="http://cs193p.stanford.edu/Images/Curling.png">
+    <link href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/Art/uiimageview_image_2x.png">
 	<type>thumbnail</type>
     </link>
   </wpt>

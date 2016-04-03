@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8B1A49531CAC0A1400AAFA74 /* GPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A49521CAC0A1400AAFA74 /* GPX.swift */; };
+		8B60F6711CAE8C45007B756A /* Vacation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8B60F6701CAE8C45007B756A /* Vacation.gpx */; };
+		8B6E8B451CB101E10065C2E4 /* EditWaypointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6E8B441CB101E10065C2E4 /* EditWaypointViewController.swift */; };
 		8BF0F5361CACCD4200661808 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF0F5351CACCD4200661808 /* ImageViewController.swift */; };
 		8BF7F4D71CABF7DD0018C03D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7F4D61CABF7DD0018C03D /* AppDelegate.swift */; };
 		8BF7F4D91CABF7DD0018C03D /* GPXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7F4D81CABF7DD0018C03D /* GPXViewController.swift */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		8B1A49521CAC0A1400AAFA74 /* GPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPX.swift; sourceTree = "<group>"; };
+		8B60F6701CAE8C45007B756A /* Vacation.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Vacation.gpx; sourceTree = "<group>"; };
+		8B6E8B441CB101E10065C2E4 /* EditWaypointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditWaypointViewController.swift; sourceTree = "<group>"; };
 		8BF0F5351CACCD4200661808 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		8BF7F4D31CABF7DD0018C03D /* Trax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF7F4D61CABF7DD0018C03D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,12 +67,14 @@
 				8BF7F4D61CABF7DD0018C03D /* AppDelegate.swift */,
 				8BF7F4D81CABF7DD0018C03D /* GPXViewController.swift */,
 				8BF0F5351CACCD4200661808 /* ImageViewController.swift */,
+				8B6E8B441CB101E10065C2E4 /* EditWaypointViewController.swift */,
 				8BF7F4EA1CAC074A0018C03D /* MKGPX.swift */,
 				8B1A49521CAC0A1400AAFA74 /* GPX.swift */,
 				8BF7F4DA1CABF7DD0018C03D /* Main.storyboard */,
 				8BF7F4DD1CABF7DD0018C03D /* Assets.xcassets */,
 				8BF7F4DF1CABF7DD0018C03D /* LaunchScreen.storyboard */,
 				8BF7F4E21CABF7DD0018C03D /* Info.plist */,
+				8B60F6701CAE8C45007B756A /* Vacation.gpx */,
 			);
 			path = Trax;
 			sourceTree = "<group>";
@@ -134,6 +140,7 @@
 			files = (
 				8BF7F4E11CABF7DD0018C03D /* LaunchScreen.storyboard in Resources */,
 				8BF7F4DE1CABF7DD0018C03D /* Assets.xcassets in Resources */,
+				8B60F6711CAE8C45007B756A /* Vacation.gpx in Resources */,
 				8BF7F4DC1CABF7DD0018C03D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +154,7 @@
 			files = (
 				8BF7F4D91CABF7DD0018C03D /* GPXViewController.swift in Sources */,
 				8BF7F4EB1CAC074A0018C03D /* MKGPX.swift in Sources */,
+				8B6E8B451CB101E10065C2E4 /* EditWaypointViewController.swift in Sources */,
 				8BF0F5361CACCD4200661808 /* ImageViewController.swift in Sources */,
 				8BF7F4D71CABF7DD0018C03D /* AppDelegate.swift in Sources */,
 				8B1A49531CAC0A1400AAFA74 /* GPX.swift in Sources */,

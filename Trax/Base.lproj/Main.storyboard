@@ -6,6 +6,72 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--Edit Waypoint-->
+        <scene sceneID="R12-5h-oOD">
+            <objects>
+                <viewController id="0c6-3r-zYv" customClass="EditWaypointViewController" customModule="Trax" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HPs-HY-m6g"/>
+                        <viewControllerLayoutGuide type="bottom" id="XQA-ny-HZP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NeF-gr-vrO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HBO-4n-roU">
+                                <rect key="frame" x="20" y="31" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Of-Oi-6iM">
+                                <rect key="frame" x="87" y="28" width="493" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZMV-HI-9eM">
+                                <rect key="frame" x="87" y="66" width="493" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Info" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aK-LZ-hYJ">
+                                <rect key="frame" x="20" y="69" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="XQA-ny-HZP" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ZMV-HI-9eM" secondAttribute="bottom" constant="8" symbolic="YES" id="51T-S0-0Pr"/>
+                            <constraint firstItem="ZMV-HI-9eM" firstAttribute="baseline" secondItem="9aK-LZ-hYJ" secondAttribute="baseline" id="A8C-77-v1e"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="9aK-LZ-hYJ" secondAttribute="leading" id="Bti-rH-iSD"/>
+                            <constraint firstItem="ZMV-HI-9eM" firstAttribute="leading" secondItem="9aK-LZ-hYJ" secondAttribute="trailing" constant="22" id="CGc-BH-c4Y"/>
+                            <constraint firstItem="4Of-Oi-6iM" firstAttribute="leading" secondItem="HBO-4n-roU" secondAttribute="trailing" constant="22" id="CjJ-27-CAC"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="HBO-4n-roU" secondAttribute="leading" id="VTw-oN-jTj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4Of-Oi-6iM" secondAttribute="trailing" id="XZb-wL-7Yp"/>
+                            <constraint firstItem="4Of-Oi-6iM" firstAttribute="top" secondItem="HPs-HY-m6g" secondAttribute="bottom" constant="8" id="ccj-Tk-zms"/>
+                            <constraint firstItem="4Of-Oi-6iM" firstAttribute="baseline" secondItem="HBO-4n-roU" secondAttribute="baseline" id="hww-g8-EVZ"/>
+                            <constraint firstItem="4Of-Oi-6iM" firstAttribute="leading" secondItem="ZMV-HI-9eM" secondAttribute="leading" id="lXA-cd-Wz6"/>
+                            <constraint firstItem="ZMV-HI-9eM" firstAttribute="top" secondItem="4Of-Oi-6iM" secondAttribute="bottom" constant="8" id="ssB-7M-R6V"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZMV-HI-9eM" secondAttribute="trailing" id="xEa-OT-sUB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Edit Waypoint" id="Kkc-ZI-zfB">
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="orQ-aB-mf9">
+                            <connections>
+                                <action selector="done:" destination="0c6-3r-zYv" id="5BO-FU-XG1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="infoTextField" destination="ZMV-HI-9eM" id="jVj-2O-swa"/>
+                        <outlet property="nameTextField" destination="4Of-Oi-6iM" id="4hp-Wd-1sv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oy1-sp-r8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2006" y="-563"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -20,6 +86,10 @@
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="gwS-BP-aox">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="sKA-NQ-3fb" appends="YES" id="WNG-5H-UHH"/>
+                                </connections>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -34,11 +104,19 @@
                     <connections>
                         <outlet property="mapView" destination="gwS-BP-aox" id="Pun-No-cbC"/>
                         <segue destination="nLb-qe-6hS" kind="show" identifier="Show Image" id="EVe-Er-60S"/>
+                        <segue destination="0c6-3r-zYv" kind="popoverPresentation" identifier="Edit Waypoint" popoverAnchorView="gwS-BP-aox" id="2kF-r3-ed5">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="sKA-NQ-3fb">
+                    <connections>
+                        <action selector="addWaypoints:" destination="BYZ-38-t0r" id="oP1-Hc-M3y"/>
+                    </connections>
+                </pongPressGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1247" y="282"/>
+            <point key="canvasLocation" x="1228" y="288"/>
         </scene>
         <!--Image View Controller-->
         <scene sceneID="rSp-kl-EjY">
@@ -96,5 +174,26 @@
             </objects>
             <point key="canvasLocation" x="435" y="282"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="LeV-hb-YnB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dR4-BJ-BpK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="beV-8J-1cb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0c6-3r-zYv" kind="relationship" relationship="rootViewController" id="r8W-z7-hwW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qPA-F3-7eP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1172" y="-588"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="2kF-r3-ed5"/>
+    </inferredMetricsTieBreakers>
 </document>
